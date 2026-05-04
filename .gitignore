@@ -1,0 +1,29 @@
+/.vscode/
+
+# C++ build outputs
+/cpp_port/build*/
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.gcda
+*.gcno
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Generated benchmark and run artifacts
+*.log
+/benchmark_results.json
+
+# Generated FPGA demo artifacts
+/fpga_demo/generated_function.v
+/fpga_demo/generated_cases/
+/fpga_demo/reports/
+
+# Generated documentation artifacts
+/docs/figures/
+/FPGA Project Description.docx
+/.~lock*
