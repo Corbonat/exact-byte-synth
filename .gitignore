@@ -20,8 +20,15 @@ __pycache__/
 
 # Generated FPGA demo artifacts
 /fpga_demo/generated_function.v
+/fpga_demo/generated_function.sv
 /fpga_demo/generated_cases/
 /fpga_demo/reports/
+
+# Quartus generated outputs
+/fpga_demo/output_files/
+/fpga_demo/db/
+/fpga_demo/incremental_db/
+*.qws
 
 # Generated documentation artifacts
 /docs/figures/

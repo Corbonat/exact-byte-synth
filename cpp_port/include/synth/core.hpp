@@ -300,7 +300,6 @@ void merge_level_stats(LevelStats& dst, const LevelStats& src);
 
 [[nodiscard]] const std::vector<BenchmarkCase>& benchmarks();
 [[nodiscard]] const BenchmarkCase* find_benchmark(std::string_view name);
-[[nodiscard]] std::vector<std::string> recommended_demo_cases();
 
 [[nodiscard]] std::uint8_t current_oracle(std::uint8_t x);
 

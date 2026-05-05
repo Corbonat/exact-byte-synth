@@ -105,10 +105,8 @@ $coreSources = @(
 
 $targets = @(
     @{ Name = "synth_search";     Source = (Join-Path $apps "synth_search.cpp") },
-    @{ Name = "synth_verify";     Source = (Join-Path $apps "synth_verify.cpp") },
     @{ Name = "synth_codegen";    Source = (Join-Path $apps "synth_codegen.cpp") },
     @{ Name = "synth_benchmark";  Source = (Join-Path $apps "synth_benchmark.cpp") },
-    @{ Name = "synth_demo_build"; Source = (Join-Path $apps "synth_demo_build.cpp") },
     @{ Name = "synth_tests";      Source = (Join-Path $tests "synth_tests.cpp") }
 )
 

@@ -59,17 +59,4 @@ const BenchmarkCase* find_benchmark(std::string_view name) {
     return nullptr;
 }
 
-std::vector<std::string> recommended_demo_cases() {
-    return {
-        "affine_linear",
-        "nested_xor",
-        "xor_shift_add",
-        "mul_xor_const",
-        "mul_shift_add",
-        "sin8",
-        "cos8",
-        "square",
-    };
-}
-
 }  // namespace synth
