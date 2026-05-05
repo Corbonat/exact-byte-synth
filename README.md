@@ -14,17 +14,7 @@
 
 После этого найденная формула проходит проверку и может быть записана как Verilog-модуль. Подробное описание поиска, ограничений и научных референсов вынесено в `ALGORITHM.md`.
 
-```mermaid
-flowchart LR
-    A["Target function<br/>black-box oracle"] -->|evaluate f(x), x=0..255| B["Truth table<br/>256 bytes"]
-    B --> C["C++ synthesizer<br/>bottom-up search"]
-    C --> D["Exact expression<br/>compact formula"]
-    D --> E["Full-domain verification<br/>0..255"]
-    E --> F["Verilog module<br/>generated_function.v"]
-    F --> G["FPGA top-level<br/>switches, LEDs, HEX displays"]
-```
-
-
+![Exact Byte Synth workflow](Graph.png)
 
 ## Часть 2. Гайд По Использованию
 
